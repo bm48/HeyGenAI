@@ -13,12 +13,14 @@ export const LandingComponent = ({ grab, startLoading }: LandingPageProps) => {
             <Card className="max-w-lg w-full p-6 shadow-lg">
                 <CardHeader>
                     <CardTitle className="text-2xl font-bold text-center">
-                        iSolveUrProblems – beta
+                        Welcome, To the Project
                     </CardTitle>
                     <CardDescription className='text-justify'>
-                        Speak naturally with a real-time HeyGen Interactive Avatar powered by xAI Grok.
-                        Share images or your camera to get instant, visual guidance.
-                        Tap below to start the conversation.
+                        This project is an interactive experience between the user and a real-time avatar,
+                        using Hygen's highly capable avatar and OpenAI's LLM. The project converts the user's
+                        speech to text via OpenAI's GPT-3.5-turbo, fetches an appropriate response using the
+                        OpenAI APIs, and delivers the conversation to Hygen's avatar for a face-to-face,
+                        real-time interaction. Experience it by one click down below
                     </CardDescription>
                 </CardHeader>
                 <CardContent className="flex justify-center mt-4">
